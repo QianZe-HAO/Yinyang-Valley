@@ -1,0 +1,14 @@
+version: '3'
+
+services:
+  client:
+    container_name: TransformerClient
+    build: .
+    restart: always
+    ports:
+      - "8501:8501"
+    networks:
+      - TransformerNet
+
+networks:
+  TransformerNet:
