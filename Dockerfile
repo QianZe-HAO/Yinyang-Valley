@@ -10,4 +10,4 @@ COPY . .
 
 EXPOSE 8501
 
-CMD python -m streamlit run main.py
+CMD python -m streamlit run ChatBot.py
