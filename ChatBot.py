@@ -11,7 +11,7 @@ openai_api_key = st.sidebar.text_input("OpenAI API Key", key="chatbot_api_key", 
 st.sidebar.markdown("[Get an OpenAI API key](https://platform.openai.com/account/api-keys)")
 
 
-st.title("💬 Chatbot with Knowledge and Search")
+st.title("💬 Chatbot with Knowledge and Search 123")
 st.caption("🚀 A streamlit chatbot powered by OpenAI LLM")
 if "messages" not in st.session_state:
     st.session_state["messages"] = [{"role": "assistant", "content": "How can I help you?"}]
