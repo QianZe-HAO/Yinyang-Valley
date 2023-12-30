@@ -10,7 +10,7 @@ st.set_page_config(layout="wide")
 openai_api_key = st.sidebar.text_input("OpenAI API Key", key="chatbot_api_key", type="password")
 st.sidebar.markdown("[Get an OpenAI API key](https://platform.openai.com/account/api-keys)")
 
-st.title("💬 Chatbot with Knowledge and Search 123")
+st.title("💬 Chatbot with Knowledge and Search")
 st.caption("🚀 A streamlit chatbot powered by OpenAI LLM")
 
 if "messages" not in st.session_state:
